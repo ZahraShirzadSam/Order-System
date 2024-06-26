@@ -10,10 +10,5 @@ namespace Order_System.Entities
         public ICollection<OrderDetail> orderDetails { get; set; }
         public Customer customer { get; set; }
 
-        public Order(DateTime _createDate)
-        {
-            _createDate = DateTime.Now;
-        }
-
     }
 }

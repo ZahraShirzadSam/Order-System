@@ -8,13 +8,5 @@
         private readonly bool _active;
         public ICollection<Order>? orders { get; set; }
 
-        public Customer(string name, string deliveryAddress, string contact, bool active)
-        {
-            _name = name;
-            _deliveryAddress = deliveryAddress;
-            _contact = contact;
-            _active = active;
-        }
-
     }
 }

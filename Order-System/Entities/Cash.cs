@@ -3,10 +3,8 @@
     public class Cash : Payment
     {
         private readonly float _cashTendered;
-
-        public Cash(float amount, float cashTendered) : base(amount)
+        public Cash(float amount) : base(amount)
         {
-            _cashTendered = cashTendered;
         }
     }
 }

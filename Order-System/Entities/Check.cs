@@ -4,12 +4,8 @@
     {
         private readonly string _name;
         private readonly string _bankID;
-
-        public Check(float amount, string name, string bankID) : base(amount)
+        public Check(float amount) : base(amount)
         {
-            _name = name;
-            _bankID = bankID;
         }
-
     }
 }

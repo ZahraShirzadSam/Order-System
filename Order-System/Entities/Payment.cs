@@ -4,9 +4,5 @@
     {
         private readonly float _amount;
         public ICollection<Order> orders { get; set; }
-        public Payment(float amount)
-        {
-            _amount = amount;
-        }
     }
 }
